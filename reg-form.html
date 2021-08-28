@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>CONTACT ME</h1>
+    <hr />
+    <h3>Please fill out your info below</h3>
+    <form
+      action="mailto:mansarayamarr@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label for="firstName">First Name:</label>
+      <br />
+      <input
+        type="text"
+        name="First-name"
+        id="firstName"
+        required
+        placeholder="Name"
+      />
+      <br />
+      <br />
+      <label for="lastName">Last Name:</label>
+      <br />
+      <input
+        type="text"
+        name="Last-name"
+        id="lastName"
+        required
+        placeholder="Last name"
+      />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input
+        type="email"
+        name="Email"
+        id="email"
+        required
+        placeholder="example@gmail.com"
+      />
+      <br />
+      <br />
+      <label for="tele">Tele:</label>
+      <br />
+      <input
+        type="tel"
+        name="Telephone"
+        id="tele"
+        required
+        placeholder="+232 84223344"
+      />
+      <br />
+      <br />
+      <label for="address">Address:</label>
+      <br />
+      <input
+        type="text"
+        name="Address"
+        id="address"
+        required
+        placeholder="17 alien st. pluto"
+      />
+      <br />
+      <br />
+      <h3>Gender</h3>
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="Gender" id="female" />
+      <label for="others">Others</label>
+      <input type="radio" name="Gender" id="others" />
+      <br />
+      <br />
+      <h3>Your message:</h3>
+      <textarea
+        name="Personal message"
+        id="message"
+        cols="20"
+        rows="10"
+        placeholder="tell me somthing"
+        required
+      ></textarea>
+      <br />
+      <br />
+      <label for="agree"
+        >Are you sure you are confortable sharing your above informations
+        ?</label
+      >
+      <input type="checkbox" name="Agreement" id="agree" required />
+      <h4>Then make sure you cross check your details before you submit</h4>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+    <hr />
+    <a href="./index.html">Back home</a>
+    <br />
+    <a href="./skills.html">My skills</a>
+  </body>
+</html>
